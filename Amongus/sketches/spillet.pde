@@ -1043,7 +1043,7 @@ void addBlomstto(float x, float y) {
   void addGoal(float xpos, float hpos) {
     hpos += 1;
     // the finish line rope
-    addForPlayerOnly(new Rope(xpos, hpos-48));
+    addForPlayerOnly(new Rope(xpos, hpos-32));
   }
 
 
