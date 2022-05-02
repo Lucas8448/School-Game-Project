@@ -1110,7 +1110,7 @@ void addBlomstto(float x, float y) {
 
 class MarioLevel extends Level {
   Player mario;
-  String wintext = "GRATULERER";
+  String wintext = "IMPOSTER WINS";
   int endCount = 0;
 
   MarioLevel(float w, float h) { 
@@ -1154,7 +1154,7 @@ class MarioLevel extends Level {
 // HER ER SLUTTTEKSTEN OG POENGENE, 7.5 ER TIDEN MUSIKKEN SPILLER	  
 	  
       text(wintext, 256, 185);
-
+      textFont(snesFont);
       text("Score: "+score, 256, 235);
 
       fill(0, 8);
